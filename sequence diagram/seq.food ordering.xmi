@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMI verified="false" xmi.version="1.2" timestamp="2023-05-22T12:58:28" xmlns:UML="http://schema.omg.org/spec/UML/1.3">
+ <XMI.header>
+  <XMI.documentation>
+   <XMI.exporter>umbrello uml modeller http://umbrello.kde.org</XMI.exporter>
+   <XMI.exporterVersion>1.6.10</XMI.exporterVersion>
+   <XMI.exporterEncoding>UnicodeUTF8</XMI.exporterEncoding>
+  </XMI.documentation>
+  <XMI.metamodel xmi.version="1.3" href="UML.xml" xmi.name="UML"/>
+ </XMI.header>
+ <XMI.content>
+  <UML:Model isSpecification="false" isAbstract="false" isLeaf="false" xmi.id="m1" isRoot="false" name="UML Model">
+   <UML:Namespace.ownedElement>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="folder" name="folder"/>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="datatype" name="datatype"/>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Logical View" name="Logical View">
+     <UML:Namespace.ownedElement>
+      <UML:Package stereotype="folder" visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Datatypes" name="Datatypes">
+       <UML:Namespace.ownedElement>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="d7hiFZcP8hAI" name="int"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ouEFYgh8jYC7" name="char"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="qknrGpGV9Bd4" name="bool"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="CIK50ZrErCv0" name="float"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="DmaZ1p21lDvs" name="double"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="2WUtE54fJgXg" name="short"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="mlWkBtOiN3ja" name="long"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="P5nahJsNimqE" name="unsigned int"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="cko8RM2zDhrn" name="unsigned short"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="evLIJ8qVwjq0" name="unsigned long"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="htaIfbJZES34" name="string"/>
+       </UML:Namespace.ownedElement>
+      </UML:Package>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="V2heLXg3nGbh" name="customer"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="9DCNcY8ycDZU" name="food items"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="JprUOgeb3oxA" name="server"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="D6ZYzTjtYKW2" name="servent"/>
+     </UML:Namespace.ownedElement>
+     <XMI.extension xmi.extender="umbrello">
+      <diagrams>
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="0" showstereotype="1" name="class diagram" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="0" canvaswidth="0" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="100" xmi.id="uQ7R3qvTzFiF" documentation="" showscope="1" snapgrid="0" showatts="1" type="1">
+        <widgets/>
+        <messages/>
+        <associations/>
+       </diagram>
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="0" showstereotype="1" name="food ordering system" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="747.5" canvaswidth="1293" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" autoincrementsequence="1" usefillcolor="1" fillcolor="#ffff00" zoom="86.95652173913044" xmi.id="raBZiFyJ7w6x" documentation="" showscope="1" snapgrid="0" showatts="1" type="3">
+        <widgets>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="-412" decon="0" showstereotype="1" y="80" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="BXFDxn6okOFt" width="84" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="V2heLXg3nGbh" height="27" drawasactor="0"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="86" decon="0" showstereotype="1" y="80" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="9rNjCUB5pAqQ" width="90" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="9DCNcY8ycDZU" height="27" drawasactor="0"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="276" decon="0" showstereotype="1" y="80" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="Pearhd0sVsYw" width="63" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="JprUOgeb3oxA" height="27" drawasactor="0"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="465" decon="0" showstereotype="1" y="80" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="g98LxrYgKSGQ" width="70" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="D6ZYzTjtYKW2" height="27" drawasactor="0"/>
+        </widgets>
+        <messages>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="Pearhd0sVsYw" textid="1y6bCncrOVdI" operation="login" linewidth="0" seqnum="1" textcolor="none" usesdiagramusefillcolor="1" x="-370" showstereotype="1" y="137" widgetaid="BXFDxn6okOFt" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="0pvDvAS1krDG" width="685" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="GmXMWIlYSRot" height="20" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="0" showstereotype="1" y="121" text="login" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="JgS6VazW4jFI" pretext="" role="704" width="42" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="1y6bCncrOVdI" height="16"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="9rNjCUB5pAqQ" textid="Q47oQunSbBnA" operation="food item selection" linewidth="0" seqnum="2" textcolor="none" usesdiagramusefillcolor="1" x="-370" showstereotype="1" y="184" widgetaid="BXFDxn6okOFt" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="V1lcAJaAuXC0" width="509" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="mkjgMXRv5alx" height="20" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="0" showstereotype="1" y="168" text="food item selection" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="nlIQG8gqgeFE" pretext="" role="704" width="103" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="Q47oQunSbBnA" height="16"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="9rNjCUB5pAqQ" textid="xv2dVOpqEQUM" operation="view food items" linewidth="0" seqnum="3" textcolor="none" usesdiagramusefillcolor="1" x="-370" showstereotype="1" y="245" widgetaid="BXFDxn6okOFt" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="L9TSJ0Yh1rWP" width="509" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="BDBQfY698z4L" height="20" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="0" showstereotype="1" y="229" text="view food items" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="1DygGjoleX9s" pretext="" role="704" width="90" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="xv2dVOpqEQUM" height="16"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="9rNjCUB5pAqQ" textid="aRjudiCFUILO" operation="ordered the food" linewidth="0" seqnum="4" textcolor="none" usesdiagramusefillcolor="1" x="-370" showstereotype="1" y="289" widgetaid="BXFDxn6okOFt" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="pA4uqnXrGriG" width="509" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="GxDnRsPEjD4O" height="20" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="0" showstereotype="1" y="273" text="ordered the food" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="lO5wlCduifrk" pretext="" role="704" width="97" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="aRjudiCFUILO" height="16"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="BXFDxn6okOFt" textid="egIzYadAOENj" operation="delivering the food" linewidth="0" seqnum="5" textcolor="none" usesdiagramusefillcolor="1" x="-378" showstereotype="1" y="353" widgetaid="g98LxrYgKSGQ" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="nv0djKHiRKIv" width="878" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="zSaitqyQuKus" height="20" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="0" showstereotype="1" y="337" text="delivering the food" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="8C8V0dWUGFSr" pretext="" role="704" width="105" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="egIzYadAOENj" height="16"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="g98LxrYgKSGQ" textid="TY6moxULEFW6" operation="cancellig the order" linewidth="0" seqnum="6" textcolor="none" usesdiagramusefillcolor="1" x="-370" showstereotype="1" y="428" widgetaid="BXFDxn6okOFt" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="SRMBXIhwzrOU" width="878" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="FzPCDukX63SM" height="20" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="0" showstereotype="1" y="412" text="cancellig the order" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="lJIkREZkYn28" pretext="" role="704" width="103" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="TY6moxULEFW6" height="16"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="Pearhd0sVsYw" textid="aH87syFQtXop" operation="log out" linewidth="0" seqnum="7" textcolor="none" usesdiagramusefillcolor="1" x="-370" showstereotype="1" y="554.9" widgetaid="BXFDxn6okOFt" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="R5SdPZuWBo3z" width="685" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="o1dAgSeWNCR1" height="20" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="0" showstereotype="1" y="538" text="log out" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="BIyXndhpg6iq" pretext="" role="704" width="52" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="aH87syFQtXop" height="16"/>
+         </messagewidget>
+        </messages>
+        <associations/>
+       </diagram>
+      </diagrams>
+     </XMI.extension>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Use Case View" name="Use Case View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Component View" name="Component View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Deployment View" name="Deployment View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Entity Relationship Model" name="Entity Relationship Model">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+   </UML:Namespace.ownedElement>
+  </UML:Model>
+ </XMI.content>
+ <XMI.extensions xmi.extender="umbrello">
+  <docsettings viewid="raBZiFyJ7w6x" uniqueid="aH87syFQtXop" documentation=""/>
+  <listview>
+   <listitem open="1" type="800" id="Views">
+    <listitem open="1" type="821" id="Component View"/>
+    <listitem open="1" type="827" id="Deployment View"/>
+    <listitem open="1" type="836" id="Entity Relationship Model"/>
+    <listitem open="1" type="801" id="Logical View">
+     <listitem open="0" type="807" id="uQ7R3qvTzFiF" label="class diagram"/>
+     <listitem open="1" type="813" id="V2heLXg3nGbh"/>
+     <listitem open="0" type="830" id="Datatypes">
+      <listitem open="1" type="829" id="qknrGpGV9Bd4"/>
+      <listitem open="1" type="829" id="ouEFYgh8jYC7"/>
+      <listitem open="1" type="829" id="DmaZ1p21lDvs"/>
+      <listitem open="1" type="829" id="CIK50ZrErCv0"/>
+      <listitem open="1" type="829" id="d7hiFZcP8hAI"/>
+      <listitem open="1" type="829" id="mlWkBtOiN3ja"/>
+      <listitem open="1" type="829" id="2WUtE54fJgXg"/>
+      <listitem open="1" type="829" id="htaIfbJZES34"/>
+      <listitem open="1" type="829" id="P5nahJsNimqE"/>
+      <listitem open="1" type="829" id="evLIJ8qVwjq0"/>
+      <listitem open="1" type="829" id="cko8RM2zDhrn"/>
+     </listitem>
+     <listitem open="1" type="813" id="9DCNcY8ycDZU"/>
+     <listitem open="0" type="810" id="raBZiFyJ7w6x" label="food ordering system"/>
+     <listitem open="1" type="813" id="D6ZYzTjtYKW2"/>
+     <listitem open="1" type="813" id="JprUOgeb3oxA"/>
+    </listitem>
+    <listitem open="1" type="802" id="Use Case View"/>
+   </listitem>
+  </listview>
+  <codegeneration>
+   <codegenerator language="C++"/>
+  </codegeneration>
+ </XMI.extensions>
+</XMI>
